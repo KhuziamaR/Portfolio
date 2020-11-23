@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='UTF-8'>
+    <title>DevKhuziama Portfolio Website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/7153e8c336.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,900;1,400&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+  </head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" id="customlogo" style="text-decoration: none;">Khuziama/Rehman</a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- intro -->
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Welcome to the <strong>Museum of Candy</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Developer</p>
+        <img src="img/selfie.JPG" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <h3>About The Museum Of Candy</h3>
+        <p>This project was built using HTML5, CSS3 and BootStrap and was inspired by Colt Steeles Web Development BootCamp! The goal of this project is to improve my front end design skills using CSS. I have not yet implemented much functionality into this website and will be imrpoving it by adding features using Javascript.</p>
+       <h3>Challenges</h3>
+       <p>A few challenges I encountered while making this website was figuring out how to layout the design. I learned how to use Bootstrap 4 to layout the project as it provides many powerfull tools such as container classes, the grid system, flexible media objects/queries as well as responsive utility classes!</p>
+       <h4>Click Below To View The Project Or Code On Github!</h4>
+       <p><a href="https://khuziamar.github.io/MuseumOfCandy/" target="_blank" class="btn">View Project</a> <a target="_blank" href="https://github.com/KhuziamaR/MuseumOfCandy" class="btn">View Project Code</a></p>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <a href="mailto:rehmankhuziama@gmail.com" class="footer__link">rehmankhuziama@gmail.com</a>
+        <ul class="social-list">
+          <li class="social-list__item">
+              <a class="social-list__link" target="_blank" href="https://www.linkedin.com/in/khuziama-rehman-014039186/"><i class="fab fa-linkedin"></i></a>
+              </li>
+          <li class="social-list__item">
+              <a class="social-list__link" target="_blank" href="https://github.com/KhuziamaR"><i class="fab fa-github"></i></a>
+              </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
